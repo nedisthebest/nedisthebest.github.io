@@ -42,6 +42,10 @@ html, body {
     background-color: var(--transgray);
 }
 
+.navbar .active {
+    background-color: hsl(var(--hue), 100%, 20%);
+}
+
 .navbar {
     text-align: center;
     font-weight: 700;
@@ -97,4 +101,10 @@ html, body {
 
 .outline-phone {
     fill: hsl(var(--hue), 100%, 10%);
+}
+
+@media screen {
+    .noScreen {
+        display: none;
+    }
 }
