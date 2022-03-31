@@ -1,0 +1,21 @@
+:root {
+    --maincolour: hsl(200, 100%, 30%)
+}
+
+*,*::before,*::after {
+    box-sizing: border-box;
+}
+
+.navbar ul {
+    list-style: none;
+}
+
+.navbar {
+    display: flex;
+    align-items: flex-start;
+    background-color: var(--maincolour);
+}
+
+.navbar ul li {
+    display: inline-flex;
+}
